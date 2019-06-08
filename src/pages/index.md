@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Hi, i'm Mat a UX, UI Designer who loves to create,
-# image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron.jpg
 heading: Who am I?
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
