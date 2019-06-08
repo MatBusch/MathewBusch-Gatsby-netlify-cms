@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Mathew Busch Portfolio 
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Hi, i'm Mat a UX, UI Designer who loves to create,
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
