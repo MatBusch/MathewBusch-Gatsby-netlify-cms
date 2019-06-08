@@ -18,9 +18,6 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
-      <Slider>
-
-      </Slider>
       <div
         className="full-width-image margin-top-0"
         style={{
@@ -130,7 +127,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      {/* <IndexPageTemplate
+      <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -138,10 +135,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-      /> */}
-      <Slider>
-
-      </Slider>
+      />
     </Layout>
   )
 }

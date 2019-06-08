@@ -2,8 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Slider from '../components/Slider'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
+import Overlay from './Overlay';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -44,8 +46,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
+      <Overlay />
+      <Slider />
       <Navbar />
-      <div>{children}</div>
+      {children}
       <Footer />
     </div>
   )
