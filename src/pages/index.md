@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: Mathew Busch Portfolio 
-image: /img/home-jumbotron.jpg
-heading: Hi, i'm Mat a UX, UI Designer who loves to create,
+title: Hi, i'm Mat a UX, UI Designer who loves to create,
+# image: /img/home-jumbotron.jpg
+heading: Who am I?
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Why Kaldi
